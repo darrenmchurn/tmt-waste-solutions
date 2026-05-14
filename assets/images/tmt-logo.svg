@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-label="TMT Waste Solutions">
+  <defs>
+    <!-- Reusable TMT glyph definition -->
+    <text id="tmt"
+      font-family="Rockwell, 'Rockwell Nova', Georgia, 'Times New Roman', serif"
+      font-weight="bold"
+      font-size="198"
+      x="300" y="235"
+      text-anchor="middle">TMT</text>
+  </defs>
+
+  <!-- TMT — outer dark navy border (creates thin shadow outside gold ring) -->
+  <use href="#tmt" fill="none" stroke="#0a1628" stroke-width="30" stroke-linejoin="miter"/>
+  <!-- TMT — gold border + cream fill -->
+  <use href="#tmt" fill="#f5f0e8" stroke="#c9973a" stroke-width="22" stroke-linejoin="miter" paint-order="stroke fill"/>
+  <!-- TMT — inner dark navy border (thin inner outline) -->
+  <use href="#tmt" fill="none" stroke="#0a1628" stroke-width="11" stroke-linejoin="miter"/>
+
+  <!-- Gold stars flanking TMT -->
+  <text x="68"  y="186" text-anchor="middle" font-size="30" fill="#c9973a">★</text>
+  <text x="532" y="186" text-anchor="middle" font-size="30" fill="#c9973a">★</text>
+
+  <!-- Horizontal rule above WASTE SOLUTIONS -->
+  <line x1="108" y1="257" x2="492" y2="257" stroke="#c9973a" stroke-width="1.5"/>
+
+  <!-- White flanking stars for subtitle -->
+  <text x="122" y="288" text-anchor="middle" font-size="13" fill="#ffffff">★</text>
+  <!-- WASTE SOLUTIONS text -->
+  <text
+    font-family="Rockwell, 'Rockwell Nova', Georgia, 'Times New Roman', serif"
+    font-weight="bold"
+    font-size="26"
+    x="300" y="288"
+    text-anchor="middle"
+    fill="#c9973a"
+    style="letter-spacing:0.18em">WASTE SOLUTIONS</text>
+  <text x="478" y="288" text-anchor="middle" font-size="13" fill="#ffffff">★</text>
+
+  <!-- Horizontal rule below WASTE SOLUTIONS -->
+  <line x1="108" y1="303" x2="492" y2="303" stroke="#c9973a" stroke-width="1.5"/>
+
+  <!-- Decorative flourish — left scroll -->
+  <path d="M 158,336 C 178,325 200,330 216,337 C 228,342 237,337 244,339"
+    stroke="#c9973a" fill="none" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Decorative flourish — right scroll (mirror) -->
+  <path d="M 442,336 C 422,325 400,330 384,337 C 372,342 363,337 356,339"
+    stroke="#c9973a" fill="none" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Center flourish star -->
+  <text x="300" y="348" text-anchor="middle" font-size="21" fill="#c9973a">★</text>
+</svg>

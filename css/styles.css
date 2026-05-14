@@ -87,7 +87,7 @@ ul { list-style: none; }
 
 /* ---------- Nav Logo Image ---------- */
 .nav__logo-img {
-  height: 48px;
+  height: 52px;
   width: auto;
   display: block;
 }
@@ -567,7 +567,7 @@ ul { list-style: none; }
 
 /* ---------- Footer Logo ---------- */
 .footer__logo-img {
-  height: 64px;
+  height: 80px;
   width: auto;
 }
 
